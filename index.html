@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="settings-box">
+      <div id="open-icon-div" class="toggle-spin">
+        <i id="sett-icon" class="fa-solid fa-gear"></i>
+      </div>
+      <div class="settings-container">
+        <h2>Colors</h2>
+        <ul class="colors-list">
+          <li class="active" data-color="#ff9800"></li>
+          <li data-color="#e91e63"></li>
+          <li data-color="#009688"></li>
+          <li data-color="#03a9f4"></li>
+          <li data-color="#4caf50"></li>
+        </ul>
+      </div>
+      <div class="settings-background">
+        <h3>Random Background</h3>
+        <span class="yes active" data-mode="yes">Yes</span>
+        <span class="no" data-mode="no">No</span>
+      </div>
+      <div class="settings-bullets">
+        <h3>Show Bullets</h3>
+        <span class="yes active" data-show="block">Yes</span>
+        <span class="no" data-show="none">No</span>
+      </div>
+      <button id="rest-btn">Reset All Settings</button>
+    </div>
+    <div class="nav-bulltes">
+      <div class="bullte" data-seciton=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullte" data-seciton=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullte" data-seciton=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullte" data-seciton=".time-line">
+        <div class="tooltip">Time Line</div>
+      </div>
+      <div class="bullte" data-seciton=".our-features">
+        <div class="tooltip">Our Features</div>
+      </div>
+      <div class="bullte" data-seciton=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <div class="lan-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">GAM</div>
+          <div class="links-container">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <ul class="links">
+              <li>
+                <a href="#" data-seciton=".about-us">About Us</a>
+              </li>
+              <li><a href="#" data-seciton=".skills">Our Skills</a></li>
+              <li><a href="#" data-seciton=".gallery">Our Gallery</a></li>
+              <li><a href="#" data-seciton=".time-line">Time Line</a></li>
+              <li><a href="#" data-seciton=".our-features">Our Features</a></li>
+              <li><a href="#" data-seciton=".testimonials">Testimonials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="lan-text">
+        <h1>we are <span>creative</span> agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing eli Voluptate
+          asperiores voluptatum sapiente ducimus, nesciunt reprehenderit quaerat
+          magnam iure
+        </p>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <div class="about-us">
+          <div class="about-info">
+            <h2 class="main-head">About Us</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+              ab, optio delectus consequatur vel obcaecati enim tempora,
+              corporis a autem eveniet ut quibusdam. Nesciunt, cumque iste
+              excepturi ex ipsum eius!
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="/aboutUs/4491464.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="skills">
+        <div class="container">
+          <h2 class="main-head">Our Skills</h2>
+          <div class="skill-box">
+            <div class="skill-name">HTML</div>
+            <div class="skill-progrss">
+              <span data-progrss="95%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">CSS</div>
+            <div class="skill-progrss">
+              <span data-progrss="90%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">JS</div>
+            <div class="skill-progrss">
+              <span data-progrss="85%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">PHP</div>
+            <div class="skill-progrss">
+              <span data-progrss="50%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">MySQl</div>
+            <div class="skill-progrss">
+              <span data-progrss="65%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="gallery">
+        <div class="container">
+          <h2 class="main-head">Our Gallery</h2>
+          <div class="gallery-images">
+            <img src="gallery/shuffle-01.jpg" alt="Image One" />
+            <img src="gallery/shuffle-02.jpg" alt="Image Two" />
+            <img src="gallery/shuffle-03.jpg" alt="Image Three" />
+            <img src="gallery/shuffle-04.jpg" alt="Image Four" />
+            <img src="gallery/shuffle-05.jpg" alt="Image Five" />
+            <img src="gallery/shuffle-06.jpg" alt="" />
+            <img src="gallery/shuffle-07.jpg" alt="" />
+            <img src="gallery/shuffle-08.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="time-line">
+        <div class="container">
+          <h2>Time Line</h2>
+          <div class="time-con">
+            <div class="year">2025</div>
+            <div class="right">
+              <div class="contant">
+                <h3>Web Designer at ABC Company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores repudiandae aspernatur explicabo doloremque alias
+                </p>
+              </div>
+            </div>
+            <div class="clearFix"></div>
+            <div class="left">
+              <div class="contant">
+                <h3>Web Designer at ABC Company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores repudiandae aspernatur explicabo doloremque alias
+                </p>
+              </div>
+            </div>
+            <div class="clearFix"></div>
+            <div class="year">2024</div>
+            <div class="right">
+              <div class="contant">
+                <h3>Web Designer at ABC Company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores repudiandae aspernatur explicabo doloremque alias
+                </p>
+              </div>
+            </div>
+            <div class="clearFix"></div>
+            <div class="right">
+              <div class="contant">
+                <h3>Web Designer at ABC Company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores repudiandae aspernatur explicabo doloremque alias
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="our-features">
+        <div class="container">
+          <h2 class="main-head">Our Features</h2>
+          <div class="features-boxs">
+            <div class="box">
+              <div class="features-box-image">
+                <img src="featuars/3488016.jpg" alt="" />
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus doloribus fugiat necessitatibus nulla illo explicabo
+              </p>
+            </div>
+            <div class="box">
+              <div class="features-box-image">
+                <img src="featuars/4579608.jpg" alt="" />
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus doloribus fugiat necessitatibus nulla illo explicabo
+              </p>
+            </div>
+            <div class="box">
+              <div class="features-box-image">
+                <img src="featuars/4758689.jpg" alt="" />
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus doloribus fugiat necessitatibus nulla illo explicabo
+              </p>
+            </div>
+            <div class="box">
+              <div class="features-box-image">
+                <img src="featuars/53541.jpg" alt="" />
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus doloribus fugiat necessitatibus nulla illo explicabo
+              </p>
+            </div>
+            <div class="box">
+              <div class="features-box-image">
+                <img src="featuars/5865181.jpg" alt="" />
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus doloribus fugiat necessitatibus nulla illo explicabo
+              </p>
+            </div>
+            <div class="box">
+              <div class="features-box-image">
+                <img src="featuars/Sandy_Bus-43_Single-06.jpg" alt="" />
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus doloribus fugiat necessitatibus nulla illo explicabo
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="testimonials">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="testimonials-boxs">
+            <div class="test-box">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                molestias animi eligendi corrupti
+              </p>
+              <div class="box-info">
+                <img src="Testimonials/avatar-01.png" alt="" />
+                <div class="text-info">
+                  <h3>Ahmed Gamhody</h3>
+                  <p>Full Stack Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="test-box">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                molestias animi eligendi corrupti
+              </p>
+              <div class="box-info">
+                <img src="Testimonials/avatar-02.png" alt="" />
+                <div class="text-info">
+                  <h3>Ahmed Gamhody</h3>
+                  <p>Full Stack Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="test-box">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                molestias animi eligendi corrupti
+              </p>
+              <div class="box-info">
+                <img src="Testimonials/avatar-03.png" alt="" />
+                <div class="text-info">
+                  <h3>Ahmed Gamhody</h3>
+                  <p>Full Stack Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="test-box">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                molestias animi eligendi corrupti
+              </p>
+              <div class="box-info">
+                <img src="Testimonials/avatar-04.png" alt="" />
+                <div class="text-info">
+                  <h3>Ahmed Gamhody</h3>
+                  <p>Full Stack Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="test-box">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                molestias animi eligendi corrupti
+              </p>
+              <div class="box-info">
+                <img src="Testimonials/avatar-05.png" alt="" />
+                <div class="text-info">
+                  <h3>Ahmed Gamhody</h3>
+                  <p>Full Stack Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="test-box">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                molestias animi eligendi corrupti
+              </p>
+              <div class="box-info">
+                <img src="Testimonials/avatar-06.png" alt="" />
+                <div class="text-info">
+                  <h3>Ahmed Gamhody</h3>
+                  <p>Full Stack Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="contact-us">
+        <div class="container">
+          <h2 class="main-head">Contact Us</h2>
+          <form>
+            <div class="left">
+              <input type="text" placeholder="Your Name" />
+              <input type="tel" placeholder="Your Phone" />
+              <input type="email" placeholder="Your Email" />
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div class="right">
+              <textarea placeholder="Your Message"></textarea>
+              <button>Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="footer">Created With Love By <span>AHEMD GAMHODY</span></div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
